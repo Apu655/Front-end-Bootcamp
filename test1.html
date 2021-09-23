@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= 'description' content="This website tells you about ">
+    <link rel="stylesheet" href="test1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Bootcamp</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+    
+        <div class='container'>
+            
+            <a href="https://www.facebook.com" target='blank' class="navbar-brand">Frontend Bootcamp</a>
+            <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarmenu'>
+                <span class='navbar-toggler-icon'></span>
+            </button>
+            <div class='collapse navbar-collapse' id='navbarmenu'>
+                <ul class='navbar-nav ms-auto'>
+                    <li class='nav-item'>
+                        <a href="#section1" class="nav-link">What you'll learn</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href="#question" class="nav-link">Questions</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href="#instructor" class="nav-link">Insturctors</a>
+                    </li>
+                    <li class='nav-item'>
+                        <button class = 'btn btn-primary p-0 mx-4 my-2 px-3 py-1' data-bs-toggle='modal' data-bs-target='#signin'>Sign in</button>
+                        <!-- <a href="#" class="nav-link">Sign In</a> -->
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="bg-dark text-light text-center text-md-start py-2" id='section1'>
+        <div class="container">
+            <div class='d-sm-flex pt-4 align-items-center justify-content-between'>
+                <div>
+                    <p class='h1'>Become a <span class='text-warning'>WEB DEVELOPER</span></p>
+                    <p class='fs-4'>Try our new course today!</p>
+                    <button class="btn btn-primary btn-lg px-5 mb-5 mb-lg-3" data-bs-toggle='modal' data-bs-target='#form'>Sign up!</button>
+                </div>
+                <div>
+                    <img src="images/HTML1.png" class='img-fluid w-100 mx-5 pb-3 rounded-pill d-none d-md-block' alt="HTML1">
+                </div>  
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary text-light p-4">
+        <div class='container'>
+            <div class='d-md-flex justify-content-between align-items-center'>
+                
+                    <h3 class='mb-3 mb-md-0 pe-5'>Search for Courses</h3>
+                
+            
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control " placeholder="Search here" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-dark " type="button" id="button-addon2">Search</button>
+                    </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="p-5" id='section2'>
+        <div class="container">
+            <div class="row text-center gy-3">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Virtual</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, facilis rerum quia odit quas quibusdam, impedit, enim tempore non animi rem sequi voluptate architecto incidunt dicta repudiandae error deleniti soluta?</p>
+
+                            <a href='#' class='btn btn-primary'>Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-journals"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Virtual</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, facilis rerum quia odit quas quibusdam, impedit, enim tempore non animi rem sequi voluptate architecto incidunt dicta repudiandae error deleniti soluta?</p>
+
+                            <a href='#' class='btn btn-primary'>Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-keyboard"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Virtual</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, facilis rerum quia odit quas quibusdam, impedit, enim tempore non animi rem sequi voluptate architecto incidunt dicta repudiandae error deleniti soluta?</p>
+
+                            <a href='#' class='btn btn-primary'>Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row align-item-center justify-content-between p-5">
+                <div class="col-md">
+                    
+                    <img src='images/CSS3.png' class = 'w-100 rounded-pill'>
+                </div>
+                <div class="col-md px-5 py-lg-0 py-3">
+                    <h2>Fundamentals of Cascading Style Sheets</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quas labore nisi, quibusdam autem voluptate adipisci similique impedit vero laboriosam ipsa provident pariatur quos magnam. Tempore officiis repellendus amet accusamus!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum animi eligendi dolore itaque adipisci aliquid quod tenetur consequuntur provident ipsam!</p>
+                    <a href='#' class='btn btn-ligth'>
+                        <i class="bi bi-chevron-right"></i>Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class='bg-dark p-0 text-light'>
+        <div class="container">
+            <div class="row align-item-center justify-content-between p-5">
+                <div class="col-md px-5 py-lg-0 py-3">
+                    <h2>Fundamentals of Java Script</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quas labore nisi, quibusdam autem voluptate adipisci similique impedit vero laboriosam ipsa provident pariatur quos magnam. Tempore officiis repellendus amet accusamus!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum animi eligendi dolore itaque adipisci aliquid quod tenetur consequuntur provident ipsam!</p>
+                    <a href='#' class='btn btn-dark'>
+                        <i class="bi bi-chevron-right"></i>Read More
+                    </a>
+                </div>
+                <div class="col-md">
+                    
+                    <img src='images/JavaScript.png' class = 'w-100 rounded-pill'>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Question Accordian-->
+    <section class='p-5' id='question'>
+        <div class="container pb-5">
+            <h2 class="text-center mb-4">Frequently asked questions</h2>
+            <div class="accordion" id="questions">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Why web development is important?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laudantium quibusdam porro ullam reiciendis velit eveniet quas dicta quam magnam.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What should we learn to be a good web-developer?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat aperiam numquam earum porro, iste molestias possimus nam alias dicta.<p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Do I need international credit card to by courses here?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat aperiam numquam earum porro, iste molestias possimus nam alias dicta.<p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section id="instructor" class='p-5 bg-primary'>
+        <div class="container">
+            <h2 class="text-center text-light">Our instructors<hr></h2>
+            <p class="lead text-cente text-white mb">
+                Our instructors all are well experienced and richest people in the world.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <h2 class="text-center">Bill Gates</h2>
+                            <img src="images/billgates.jpg" alt='' class='rounded mb-3 w-100'/>
+                            <h5 class="card-title mb-3">Microsoft-Owner</h5>
+                            <p class="card-text">Parents named him gates but constantly stealing money from people by selling windows</p>
+                            <a href="">
+                                <i class="bi bi-facebook text-dark mx-1"></i>
+                            </a>
+                            <a href="">
+                                <i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                            <a href="">
+                                <i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <h2 class="text-center">Jeff Bezos</h2>
+                            <img src='images/jeff.png' alt='' class=' rounded mb-3 w-100'>
+                            <h5 class="card-title">
+                                Former Owner of Amazon and hair.
+                            </h5>
+                            <p class="text-center">Guy believes money can't buy happiness,so, he never bought hair</p>
+                            <a href="">
+                                <i class="bi bi-facebook text-dark mx-1"></i>
+                            </a>
+                            <a href="">
+                                <i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                            <a href="">
+                                <i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <h2 class="text-center">Jeff Bezos</h2>
+                            <img src='images/jeff.png' alt='' class=' rounded mb-3 w-100'>
+                            <h5 class="card-title">
+                                Former Owner of Amazon and hair.
+                            </h5>
+                            <p class="text-center">Guy believes money can't buy happiness,so, he never bought hair</p>
+                            <a href="">
+                                <i class="bi bi-facebook text-dark mx-1"></i>
+                            </a>
+                            <a href="">
+                                <i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                            <a href="">
+                                <i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts  -->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">
+                        Contact Information
+                    </h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Locations:</span><span>111 beckar street</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Student Email:</span><span>jeff.gates@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <p>This is the google map</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center">
+        <div class="container">
+            <p class="lead">Copyrigth &copy; 2021</p>
+            <a href="" class="position-absolute bottom-0 end-0 p">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal Form -->
+    <!-- Modal -->
+<div class="modal fade" id="form" tabindex="-1" aria-labelledby="formLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="formLabel">Fill out the information</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Notify me about new courses
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Sign up</button>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Sign in part -->
+<div class="modal fade" id="signin" tabindex="-1" aria-labelledby="signinLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="formLabel">Fill out the information</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="staticEmail" value="" placeholder='@mail.com'>
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword">
+                </div>
+              </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Keep me logged in
+                    </label>
+                  </div>
+                </div>
+                
+              </form>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary" data-bs-dismiss='modal'>Sign up</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
